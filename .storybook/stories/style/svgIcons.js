@@ -60,11 +60,5 @@ function SvgIcons(props) {
   );
 }
 
-const StyledSVGIcons = withStyles(svgStyles)(SvgIcons);
+export default withStyles(svgStyles)(SvgIcons);
 
-export default {
-  title: 'Style',
-  component: StyledSVGIcons,
-};
-
-export const SVGIcons = () => <StyledSVGIcons />;

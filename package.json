@@ -4,9 +4,12 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "3.6.0",
+    "@material-ui/docs": "3",
+    "@material-ui/icons": "3",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
-    "react-scripts": "3.4.0"
+    "react-scripts": "3.4.0",
+    "typeface-roboto": "0.0.75"
   },
   "devDependencies": {
     "@harelpls/storybook-addon-materialui": "^1.0.2",
